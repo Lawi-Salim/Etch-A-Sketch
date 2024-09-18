@@ -30,12 +30,12 @@ function createGrille(cell) {
 }
 
 butCell.addEventListener("click", () => {
-    let nbrCell = prompt("Donner le nombre de grille de 1 à 100 !");
+    let nbrCell = prompt("Give the number of grids from 1 to 100!");
     
     if (!isNaN(nbrCell) && nbrCell >= 1 && nbrCell <= 100) {
         createGrille(nbrCell);
     } else {
-        alert("Veuillez entrer un nombre valide entre 1 et 100 !");
+        alert("Please enter a valid number between 1 and 100!");
     }
 });
 
